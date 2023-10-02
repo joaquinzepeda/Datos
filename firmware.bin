@@ -1,0 +1,12 @@
+#include <Arduino.h>
+
+void setup() {
+  // Inicializa el puerto serie.
+  Serial.begin(115200);
+
+  Serial.print("bien");
+}
+
+void loop() {
+  delay(1000);
+}
